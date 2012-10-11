@@ -12,7 +12,8 @@ namespace TheRabbitMQ
         [TestMethod]
         public void TestMethod1()
         {
-
+            Console.WriteLine(DateTime.Today);
+            Console.WriteLine(DateTime.Today.AddHours(23.99));
         }
     }
 }
